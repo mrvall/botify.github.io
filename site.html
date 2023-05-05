@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Botify</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+		}
+		
+		h1 {
+			font-size: 36px;
+			text-align: center;
+			margin-top: 2em;
+			margin-bottom: 1em;
+		}
+		
+		.button {
+			display: inline-block;
+			padding: 0.5em 1em;
+			background-color: white;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-right: 1em;
+			margin-bottom: 1em;
+			color: black;
+			font-size: 24px;
+		}
+		
+		.button:hover {
+			background-color: gray;
+			color: white;
+		}
+		
+		#bot-container {
+			width: 200px;
+			height: 200px;
+			margin: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: relative;
+		}
+		
+		#discord-buttons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-top: 2em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Botify</h1>
+	</header>
+	<main>
+		<section>
+			<div id="bot-container">
+				<div id="discord-buttons">
+					<a href="https://discord.com/api/oauth2/authorize?client_id=752296624667099247&permissions=8&scope=bot" class="button">Botify</a>
+					<a href="https://discord.gg/BGB6D65kjK" class="button">Поддержка</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>© 2023 Botify. Все права защищены.</p>
+	</footer>
+</body>
+</html>
